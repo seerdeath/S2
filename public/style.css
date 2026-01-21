@@ -1,0 +1,21 @@
+body { font-family: sans-serif; background: #1a1a1a; color: white; display: flex; justify-content: center; padding: 20px; }
+.screen { width: 100%; max-width: 400px; text-align: center; }
+.hidden { display: none !important; }
+
+input { padding: 10px; margin: 10px 0; border-radius: 5px; border: none; width: 80%; }
+button { padding: 12px 20px; cursor: pointer; border-radius: 5px; border: none; background: #4caf50; color: white; font-weight: bold; }
+button:disabled { background: #555; cursor: not-allowed; }
+
+#player-list { background: #333; padding: 15px; border-radius: 10px; margin: 20px 0; }
+.player-row { display: flex; justify-content: space-between; padding: 5px 0; border-bottom: 1px solid #444; }
+.active-player { color: #4caf50; font-weight: bold; transform: scale(1.1); }
+
+#game-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+#timer { font-size: 2rem; background: #e91e63; padding: 10px; border-radius: 50%; width: 50px; height: 50px; line-height: 50px; }
+
+#players-stats { margin-bottom: 30px; }
+.stat-card { background: #2c2c2c; padding: 10px; margin: 5px 0; border-radius: 8px; display: flex; justify-content: space-between; }
+.dead { text-decoration: line-through; color: #ff5252; }
+
+#items-container { display: flex; gap: 10px; justify-content: center; min-height: 50px; }
+.item-card { background: #2196f3; padding: 5px 10px; border-radius: 4px; font-size: 0.8rem; }
